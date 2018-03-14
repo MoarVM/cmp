@@ -25,11 +25,11 @@ THE SOFTWARE.
 #include <stddef.h>
 #include <stdint.h>
 
-#include "cmp.h"
-
 #define bool int
 #define true TRUE
 #define false FALSE
+
+#include "cmp.h"
 
 static const uint32_t version = 18;
 static const uint32_t mp_version = 5;

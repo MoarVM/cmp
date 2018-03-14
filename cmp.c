@@ -26,8 +26,8 @@ THE SOFTWARE.
 #include <stdint.h>
 
 #define bool int
-#define true TRUE
-#define false FALSE
+#define true 1
+#define false 0
 
 #include "cmp.h"
 
